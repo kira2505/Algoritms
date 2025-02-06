@@ -1,4 +1,4 @@
-package lesson1;
+package com.telran.lesson1;
 
 public class TwoSumExample {
 
