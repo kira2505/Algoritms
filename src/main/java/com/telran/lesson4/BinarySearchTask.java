@@ -19,7 +19,7 @@ public class BinarySearchTask {
         while (left <= right) {
             mid = left + (right - left) / 2;
             int element = ints[mid];
-            if (element == 140) {
+            if (element == x) {
                 return mid;
             } else if (element < x) {
                 left = mid + 1;
